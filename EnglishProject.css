@@ -1,0 +1,108 @@
+.theNavContainer
+{
+    display: flex;
+    width: 100%;
+}
+/* 標誌 */
+#theName, #theNavLink, #JobMenu
+{
+    margin-right: 4%;
+}
+#LOGO{
+    width:3%;
+    order: 1;
+    margin: 1%;
+}
+/* 品牌名稱 */
+#theName{
+    color: #2b8ccc;
+    order: 2;
+}
+#theNavLink
+{
+    font-size: 1.2rem;
+    order: 3;
+}
+#JobMenu 
+{
+    order: 4;
+}
+.JobItem
+{
+    font-size: 1.5rem;
+    color: #f7fafc;
+    background-color: #2b2825;
+}
+
+#theNavItemRegister
+{
+    border: 1px #000 solid;
+    order: 5;
+    margin: auto 1% auto auto;
+}
+.theCollapse
+{
+    position: absolute;
+    right: 0;
+}
+.theMap
+{
+    width: 100%;
+}
+@media(min-width:1400px)
+{
+.navbar-expand-xxl
+{
+    flex-direction: row !important;
+}
+}
+/* 
+@media (min-width: 1400px) {
+
+    .navbar-expand-size1 {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+    .navbar-expand-size1 .navbar-nav {
+      flex-direction: row;
+    }
+    .navbar-expand-size1 .navbar-nav .dropdown-menu {
+      position: absolute;
+    }
+    .navbar-expand-size1 .navbar-nav .nav-link {
+      padding-right: var(--bs-navbar-nav-link-padding-x);
+      padding-left: var(--bs-navbar-nav-link-padding-x);
+ 
+    }
+    .navbar-expand-size1 .navbar-nav-scroll {
+      overflow: visible;
+    }
+    .navbar-expand-size1 .navbar-collapse {
+      display: flex;
+      flex-basis: auto;
+    }
+    .navbar-expand-size1 .navbar-toggler {
+      display: none;
+    }
+    .navbar-expand-size1 .offcanvas {
+      position: static;
+      z-index: auto;
+      flex-grow: 1;
+      width: auto ;
+      height: auto ;
+      visibility: visible ;
+      background-color: transparent ;
+      border: 0 ;
+      transform: none ;
+      transition: none;
+    }
+    .navbar-expand-size1 .offcanvas .offcanvas-header {
+      display: none;
+    }
+    .navbar-expand-size1 .offcanvas .offcanvas-body {
+      display: flex;
+      flex-grow: 0;
+      padding: 0;
+      overflow-y: visible;
+    }
+  } */
