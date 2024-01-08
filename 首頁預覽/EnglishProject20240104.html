@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>EnglishProject</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="EnglishProject20240104.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- navbar-expand-xxl -->
+    <nav class="navbar navbar-expand-size1 bg-body-tertiary fixed-top theNAV">
+        <div class="container-fluid theNavContainer ">
+
+<!-- 縮小後變成選單 -->
+          <button class="navbar-toggler theCollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+<!-- 選單的列表 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <img id="LOGO" src="隊徽.webp">
+            <h2 id="theName">Career-Oriented Alliance</h2>
+<!-- 連結 -->
+            <ul class="navbar-nav" id="theNavLink">
+
+              <li>
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+
+<!-- 職業選擇條 -->
+            <div class="dropdown" id="JobMenu">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                What kind of job do you want to know?
+              </a>
+            
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item JobItem" href="#">Police Officer</a></li>
+                <li><a class="dropdown-item JobItem" href="#">News Reporter</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Actor or Actress</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Teacher</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Counselor</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Tour Guide</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Wedding Planner</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Youtuber</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Fashion Designer</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Dentist</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Chef</a></li>
+                <li><a class="dropdown-item JobItem" href="#">Doctor</a></li>
+              </ul>
+            </div>
+<!-- 登入和註冊 -->
+              <div class="btn-group" id="theNavItemRegister">
+                <a href="#" class="btn btn-light" aria-current="page">Register</a>
+                <a class="btn btn-light">|</a>
+                <a href="#" class="btn btn-light">Login</a>
+              </div>
+
+          </div>
+        </div>
+      </nav>
+<!-- 圖片區 -->
+      <span >
+<!-- 背景圖 -->
+        <img class="theMap" src="地圖都市規劃.png">
+        <img class="building" id="house1" src="/img/house1.jpg" alt="house1">
+        <a class="hrefImg" href="#">醫生</a>
+        <img class="building" id="house2" src="/img/house2.jpg" alt="house2">
+      </span>
+<!-- <script>
+        $(document).ready(function(){
+          $(".building").mouseover(function(){
+            $(this).animate({width:'20%',height:'30%'});
+            }).mouseout(function(){
+            $(this).animate({width:'10%',height:'10%'});
+            })
+
+          $(".hrefImg").mouseover(function(){
+            $(this).show})
+        });
+</script> -->
+</body>
+
+</html>
