@@ -73,57 +73,99 @@ span
 /* 教堂 */
 .image-container1, .links1
 {
-  left: 18%;
-  top: 38%;
+  left: 17.5%;
+  top: 26.5%;
+  width: 10%;
+  height: 25%;
 }
+
 /* 學校 */
 .image-container2, .links2
 {
-  left: 35%;
-  top: 35%;
+  left: 31.1%;
+  top: 31.3%;
+  width: 17%;
+  height: 20%;
 }
+
 /* 醫院 */
 .image-container3, .links3
 {
-  left: 52%;
-  top: 30%;
+  left: 51.6%;
+  top: 25%;
+  width: 10%;
+  height: 16.7%;
 }
+
 /* 百貨公司 */
 .image-container4, .links4
 {
-  left: 42%;
-  top: 25%;
+  left: 41.7%;
+  top: 22%;
+  width: 11%;
+  height: 18.5%;
 }
+
 /* 音樂廳 */
 .image-container5, .links5
 {
-  left: 38%;
-  top: 53%;
+  left: 37.5%;
+  top: 50%;
+  width: 13.5%;
+  height: 19.5%;
 }
+
 /* 餐廳 */
 .image-container6, .links6
 {
-  left: 35%;
-  top: 67%;
+  left: 35.9%;
+  top: 65%;
+  width: 8%;
+  height: 14%;
 }
+.links6{
+  margin-left: 4rem;
+  top: 3rem;
+}
+
 /* 警察局 */
 .image-container7, .links7
 {
-  left: 58%;
-  top: 42%;
+  left: 59%;
+  top: 42.5%;
+  width: 9%;
+  height: 14%;
 }
+
 /* 機場 */
 .image-container8, .links8
 {
-  left: 75%;
-  top: 70%;
+  left: 68.6%;
+  top: 69.7%;
+  width: 18.6%;
+  height: 21%;
 }
+.links8
+{
+  margin-left: 6rem;
+  top: 5rem;
+}
+
 /* 電視台 */
 .image-container9, .links9
 {
-  left: 25%;
-  top: 65%;
+  left: 18.15%;
+  top: 55.6%;
+  width: 19%;
+  height: 32.5%;
 }
+.link9
+{
+  position: relative;
+  top: -2rem;
+  margin-left: 10rem;
+}
+
 /* 初始圖片大小 */
 .zoomable-image
 {
@@ -139,11 +181,7 @@ span
   z-index: 100;
   transition: transform 0.5s ease-in-out;
 }
-.Icontainer
-{
-  width: 10%;
-  height: 10%;
-}
+
 /* 圖片連結 */
 .links {
   display: none;
@@ -165,12 +203,10 @@ span
   text-decoration: none;
   text-wrap: nowrap;
   font-size: 1rem;
+  color: #f7fafc;
+  background-color: #000;
 }
-.link1{
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
+
 
 
 @media (min-width: 1200px) {

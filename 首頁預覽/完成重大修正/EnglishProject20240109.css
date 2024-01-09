@@ -12,20 +12,30 @@
 {
     margin-right: 4%;
 }
+.imgLink
+{
+  width: 6%;
+}
 #LOGO{
-    width:3%;
+  position: relative;
+    width:75%;
     order: 1;
-    margin: 1%;
 }
 /* 品牌名稱 */
 #theName{
+  position: relative;
+  bottom: 0;
     color: #2b8ccc;
     order: 2;
+    text-wrap: nowrap;
+    text-decoration: none;
+    margin-top: 6px;
 }
 #theNavLink
 {
     font-size: 1.2rem;
     order: 3;
+    text-wrap: nowrap;
 }
 #JobMenu 
 {
@@ -49,13 +59,31 @@
     position: absolute;
     right: 0;
 }
+.theMap
+{opacity: 0.8;}
 span
 {
   box-sizing: border-box;
 }
+.theLinkItem:hover
+{
+  color: #f7fafc;
+  background-color: #000;
+  border-radius: 10px;
+}
 .FullScreenB
 {
   order: 5;
+  border-radius: 15px;
+  z-index: 3;
+  position: absolute;
+  bottom: 5%;
+  right: 1%;
+}
+.FullScreenB:hover
+{
+  color: #f7fafc;
+  background-color: #000;
 }
 .theMap
 {
@@ -82,9 +110,9 @@ span
 /* 學校 */
 .image-container2, .links2
 {
-  left: 31.1%;
-  top: 31.3%;
-  width: 17%;
+  left: 31.8%;
+  top: 31.2%;
+  width: 15%;
   height: 20%;
 }
 
@@ -124,8 +152,8 @@ span
   height: 14%;
 }
 .links6{
-  margin-left: 4rem;
-  top: 3rem;
+  margin-left: 1rem;
+  top: 2rem;
 }
 
 /* 警察局 */
@@ -147,8 +175,7 @@ span
 }
 .links8
 {
-  margin-left: 6rem;
-  top: 5rem;
+  top: 2rem;
 }
 
 /* 電視台 */
@@ -163,7 +190,7 @@ span
 {
   position: relative;
   top: -2rem;
-  margin-left: 10rem;
+  margin-left: 2rem;
 }
 
 /* 初始圖片大小 */
@@ -206,9 +233,30 @@ span
   color: #f7fafc;
   background-color: #000;
 }
-
-
-
+/* 縮小後的設定 */
+@media (max-width: 1200px) {
+  .navbar-expand-size1 #LOGO{
+    width: 10%;
+  }
+  .navbar-expand-size1 #theName{
+      display: none;
+  }
+  .navbar-expand-size1 #theNavLink
+  {
+    width: 30%;
+  }
+  .navbar-expand-size1 #JobMenu{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+  }
+  .navbar-expand-size1 #theNavItemRegister{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+  }
+}
+/* 放大後的設定 */
 @media (min-width: 1200px) {
 
     .navbar-expand-size1 {
@@ -230,8 +278,8 @@ span
       overflow: visible;
     }
     .navbar-expand-size1 .navbar-collapse {
-      display: flex;
-      flex-basis: auto;
+      display :flex;
+      flex-basis:auto;
     }
     .navbar-expand-size1 .navbar-toggler {
       display: none;
