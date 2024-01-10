@@ -12,12 +12,20 @@
             height: 100vh;
             background-color: black;
         }
+        .image{
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
         .theForm
         {
+            position: absolute;
+            z-index: 2;
             color: aliceblue;
             background-color: #5c5a54;
             border-radius: 30px;
             border: #dde1eb 0.5rem solid;
+            padding: 1.5rem;
         }
         .formItem, .title
         {
@@ -31,6 +39,8 @@
             background-color: #f2dc8a;
             color: #000;
             margin:auto 1rem;
+            border: #dde1eb 2px solid;
+            font-weight: 600;
         }
         .btn:hover
         {
@@ -44,6 +54,7 @@
     </style>
 </head>
 <body>
+    <img class="image" src="地圖登入頁面.webp">
     <div class="theForm">
         <h2 class="title">Register member</h2>
         <form method="post" class="formItem" th:object="${userRegForm}" action="/user_register">
